@@ -1,0 +1,124 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+/*===============================================*/
+/* ------- General Style 
+/*===============================================*/
+:root{
+    --main_background:whitesmoke;
+}
+body{
+    background-color:var(--main_background,grey);
+}
+/*===============================================*/
+/* ------- Start Header Style 
+/*===============================================*/
+header .navbar{
+    padding: 0px;
+}
+header .navbar-brand img{
+    width: 65px;
+    height: 38px;
+}
+header .navbar-brand .logo_text h1{
+    font-size: 1.2rem;
+}
+header .navbar-brand .logo_text span {
+    font-size: .8rem;
+}
+header .nav-item{
+    padding: 30px;
+}
+header .nav-item:first-child{
+    background-color:#029dd9;
+}
+header .nav-item:hover{
+    background-color:#029dd9;
+}
+header button:focus{
+    box-shadow: none !important;
+}
+/*===============================================*/
+/* ------- Start HOME Style  
+/*===============================================*/
+.home{
+    background-image: url(../images/banner.png);
+    background-size: cover;
+    height: 350px;
+    padding-top: 1px;
+}
+.home .search{
+    margin-top: 100px !important;
+}
+.home .form-control{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+.home .form-control:focus{
+    box-shadow: none;
+}
+.home button{
+    padding: 14px 50px;
+    border-radius: 30px;
+    right: 6px;
+}
+
+/*===============================================*/
+/* ------- Start Footer Style  
+/*===============================================*/
+footer{
+    background-color: #262936;
+    padding: 50px 0px;
+}
+footer .subscribe .form-control{
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    border: none;
+    border-radius: 50px;
+    color: #fff;
+}
+footer .form-control:focus{
+    box-shadow: none;
+}
+footer .subscribe button{
+    padding: 14px 30px;
+    border-radius: 30px;
+    right: 6px;
+}
+footer .icons i{
+    font-size: 25px;
+    text-align: center;
+    height: 50px;
+    background-color: #1e202b;
+    color: #009ad8;
+    line-height: 2.1;
+    width: 50px;
+    border-radius: 50px;
+    transition: all .5s;
+    margin: 0px 5px;
+}
+footer .icons i:hover{
+    background-color: #009ad8;
+    color: #fff;
+    cursor: pointer;
+}
+footer .copyright{
+    color: #fff;
+}
+/* footer .copyright p{
+
+} */
+
+/*===============================================*/
+/* ------- Media Query  Style  
+/*===============================================*/
+@media only screen and (max-width: 991px) {
+    footer .icons{
+        margin-top: 35px;
+    }
+}
